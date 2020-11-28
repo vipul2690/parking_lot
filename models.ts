@@ -5,9 +5,11 @@ enum ParkingSlotStatus {
 
 interface ICar {
     registration_number: string;
+    color: string;
 }
 
 interface IParkingSlot {
+    slotNo: number;
     status: ParkingSlotStatus,
     car?: ICar
 }
