@@ -52,6 +52,7 @@ const processCommand = (line: string) => {
                 }
                 return;
             case 'default':
+                console.log('Invalid Input');
                 return;
         }
     } else {
