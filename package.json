@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "compile": "tsc index.ts",
+    "start": "npm run compile && node index.js",
     "test": "jest"
   },
   "author": "Keshav Lawande",
