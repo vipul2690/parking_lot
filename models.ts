@@ -3,12 +3,12 @@ enum ParkingSlotStatus {
     "Available" = 0
 }
 
-interface ICar {
+export interface ICar {
     registration_number: string;
-    color: string;
+    color?: string;
 }
 
-interface IParkingSlot {
+export interface IParkingSlot {
     slotNo: number;
     status: ParkingSlotStatus,
     car?: ICar
